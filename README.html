@@ -1,0 +1,321 @@
+# ROUSHAN-RAJ-PANDEY
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Memoir</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            color: #2d3748;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+            border-bottom: 5px solid #764ba2;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 300px;
+            height: 300px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+        }
+
+        header big {
+            font-size: 36px;
+            display: block;
+            margin-bottom: 15px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            position: relative;
+            z-index: 1;
+        }
+
+        header a {
+            margin: 0 15px;
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+        }
+
+        header img {
+            border-radius: 50%;
+            border: 3px solid white;
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        header img:hover {
+            transform: scale(1.15) rotate(5deg);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        header small {
+            display: block;
+            margin-top: 20px;
+            font-size: 15px;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            position: relative;
+            z-index: 1;
+        }
+
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
+        }
+
+        header a:hover {
+            color: #ffd700;
+            border-bottom: 2px solid #ffd700;
+        }
+
+        hr {
+            border: none;
+            height: 3px;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            margin: 30px 0;
+            border-radius: 2px;
+        }
+
+        main {
+            max-width: 950px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            margin-bottom: 50px;
+        }
+
+        article {
+            background: white;
+            padding: 35px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border-left: 5px solid #667eea;
+            position: relative;
+        }
+
+        article:hover {
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.15);
+            transform: translateY(-5px);
+        }
+
+        nav {
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 20px;
+            position: relative;
+        }
+
+        nav::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+        }
+
+        nav h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        nav a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            padding-bottom: 5px;
+            border-bottom: 2px solid transparent;
+        }
+
+        nav a:hover {
+            color: #764ba2;
+            border-bottom: 2px solid #764ba2;
+        }
+
+        article div {
+            line-height: 2;
+            color: #4a5568;
+            font-size: 15px;
+        }
+
+        article a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
+        }
+
+        article a:hover {
+            color: #764ba2;
+            border-bottom: 2px solid #764ba2;
+        }
+
+        article h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        pre {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 40px 20px;
+            }
+
+            header big {
+                font-size: 28px;
+            }
+
+            main {
+                margin: 30px auto;
+                padding: 0 15px;
+            }
+
+            article {
+                padding: 25px;
+            }
+
+            article h2 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        
+     <big> <B>ROUSHAN RAJ PANDEY</B> </big>
+     <a href = https://github.com/Raj-hacker-stack target="_blank" ><img src="https://tse2.mm.bing.net/th/id/OIP.fqZ9-PPqcG_cm0k3JfoINQHaEK?pid=Api&P=0&h=180" alt="Profile Picture" width="50" height="25"></a>
+     <a href = www.html.com target="_blank"><img src="https://tse2.mm.bing.net/th/id/OIP.sTD3jjh3OYnaOY4GJvP4SAHaHa?pid=Api&P=0&h=180" alt="LinkedIn" width="25" height="25"></a>
+     <br>
+     <small> Aspiring Software Developer | <a href = https://www.google.com/search?q=tech+enthusiast&rlz=1C1VDKB_enIN1120IN1120&oq=tech+enthusiast&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCjEyOTk2ajBqMTWoAgiwAgHxBf3-Tla4YGyu8QX9_k5WuGBsrg&sourceid=chrome&ie=UTF-8>Tech Enthusiast</a> | Lifelong Learner </small>
+     <br>
+     <hr>
+        
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <div>
+                    <nav>
+                           <h2><b> Home </b></h2>
+                           
+                           <h2>About Me</h2>
+                           <a href ="portfolio.html">Portfolio</a>
+                    </nav>
+                </div>
+            </article>
+            <article>
+                <div>
+                    
+                        Hello! My name is Roushan Raj Pandey, and I am a dedicated and passionate individual with a
+                        strong interest
+                        in technology and programming. I have been fascinated by computers and software development from
+                        a young
+                        age, which has driven me to pursue a career in this dynamic field.
+                    
+                </div>
+                <br>
+                <div>
+                    
+                        I have a solid foundation in various programming languages, including <a
+                        href="https://www.python.org/" target="_blank">Python</a>,
+                        <a href="https://www.java.com/" target="_blank">Java</a>, and <a
+                        href="https://getbootstrap.com/" target="_blank">CSS Framework</a>
+                        My experience includes developing web applications, Animations, and working on collaborative
+                        projects that
+                        havehonedmy problem-solving skills and ability to work effectively in a team environment.
+                    
+                </div>
+                <br>
+                <div>
+                    
+                        In addition to my technical skills, I am a quick learner and always eager to explore new
+                        technologies
+                        and methodologies. I believe in continuous learning and self-improvement, which motivates me to
+                        stay
+                        updated with the latest trends in the tech industry.
+                    
+                </div>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <div><br>
+                    <br>
+                    <a href="https://www.linkedin.com/in/roushan-raj-pandey-8b7245232/" target="_blank">
+                        <pre><h2>Contact Me</h2></pre>
+                    </a>
+                </div>
+            </article>
+            <article>
+                <div>
+                    
+                        I would love to connect with like-minded individuals and professionals in the tech industry.
+                        Whether
+                        you have a project in mind, need assistance with programming, or simply want to discuss the
+                        latest
+                        trends in technology, feel free to reach out to me.
+                    
+                </div>
+                <br>
+                <div>
+                    
+                        You can contact me via email at <a
+                            href="mailto:roushanrajvbcv@gmail.com">roushanrajvbcv@gmail.com</a> or connect with me on
+                        LinkedIn. I am always open to new opportunities and collaborations.
+                    
+                </div>
+            </article>
+        </section>
+    </main>
+
+
+
+</body>
+
+</html>
